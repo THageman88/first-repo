@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="memeGenerator.css">
+    <title>Meme Generator</title>
+</head>
+
+<body>
+    <h1>Mean Green Meme Machine</h1>
+    <form id="form">
+        <div>
+            <input type="text" class="input-box" id="dank-image" placeholder="Paste image link here">
+        </div>
+        <div>
+            <input type="text" class="input-box" id="top-text" placeholder="Top text max 15 characters" maxlength="15">
+        </div>
+        <div>
+            <input type="text" class="input-box" id="bottom-text" placeholder="Bottom text max 15 characters" maxlength="15">
+        </div>
+        <button id="submit-button">submit</button>
+    </form>
+    <br>
+   
+    <div id="meme-location"></div>
+    <script src="memeGenerator.js"></script>
+</body>
+
+</html>
